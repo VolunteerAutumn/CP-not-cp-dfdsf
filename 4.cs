@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         string[] words = { "hello", "world", "cat", "amazing" };
-        int chosenLength = 5;
+        int chosenLength = int.Parse(Console.ReadLine());
 
         for (int i = 0; i < words.Length; i++)
         {

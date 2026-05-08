@@ -8,7 +8,7 @@ class Program
     {
         Random rnd = new Random();
         int[] ints = new int[10000];
-        for (int i = 0; i <= 10000; i++)
+        for (int i = 0; i < 10000; i++)
         {
             ints[i] = rnd.Next(1, 100000);
         }
